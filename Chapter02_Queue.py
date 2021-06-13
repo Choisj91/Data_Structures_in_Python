@@ -9,9 +9,29 @@
 import queue
 
 data_queue = queue.Queue()
+# data_queue = queue.LifoQueue()
+# data_queue = queue.PriorityQueue()
 
 data_queue.put("funcoding")
 data_queue.put(1)
 
 data_queue.qsize()
 print(data_queue.qsize())
+
+queue_list = list()
+
+def enqueue(data):
+    queue_list.append(data)
+
+def dequeue():
+    data = queue_list[0]
+    del queue_list[0]
+    return data
+
+for index in range(10):
+    enqueue(index)
+
+len(queue_list)
+dequeue()
+print(len(queue_list))
+
