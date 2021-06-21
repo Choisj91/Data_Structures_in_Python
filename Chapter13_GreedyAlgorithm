@@ -1,0 +1,4 @@
+coin_list = [1, 100, 50, 500]
+print(coin_list)
+coin_list.sort(reverse=True) # sort는 실체 본체 조합의 index순서가 바뀜 reverse의 true로 하면 큰 것부터 반대로 정렬됨
+print(coin_list)
