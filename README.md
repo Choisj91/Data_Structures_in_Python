@@ -26,3 +26,5 @@ Chpater 11 Sorting Algorithm(Straight Insertion Sorting)
 Chapter 12 Sorting Algorithm(Selection Sorting)
 
 Chapter 13 Greedy Algorithm
+
+From practicing 13 samples of Data Structure, learned basic concepts of Data Structures
