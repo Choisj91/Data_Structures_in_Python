@@ -30,3 +30,4 @@ Chapter 13 Greedy Algorithm
 From practicing 13 samples of Data Structure, learned basic concepts of Data Structures
 
 # Ctrl + Shift + B -> Run Build Task
+# Ctrl + shift + ' -> Run CLI to Push Github
