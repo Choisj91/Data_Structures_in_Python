@@ -13,4 +13,5 @@ def bubblesort(data):
     import random
 
     data_list = random.sample(range(100), 50)
+
     print(bubblesort(data_list))
