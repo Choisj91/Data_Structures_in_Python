@@ -11,5 +11,4 @@ def selection_sort(data):
 import random
 
 data_list = random.sample(range(100), 10)
-
 print(selection_sort(data_list))
