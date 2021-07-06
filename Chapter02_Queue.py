@@ -16,6 +16,7 @@ data_queue.put("funcoding")
 data_queue.put(1)
 
 data_queue.qsize()
+
 print(data_queue.qsize())
 
 queue_list = list()
@@ -33,5 +34,6 @@ for index in range(10):
 
 len(queue_list)
 dequeue()
+
 print(len(queue_list))
 
